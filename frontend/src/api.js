@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api"
+const API_URL = "https://cost-calculator-tool-production-1391.up.railway.app/api"
 
 
 export const getProducts = async () => {
