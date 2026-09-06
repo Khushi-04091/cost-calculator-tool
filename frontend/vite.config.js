@@ -7,4 +7,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+
+  preview: {
+    allowedHosts: [
+      'sublime-flexibility-production-1a65.up.railway.app'
+    ]
+  }
 })
